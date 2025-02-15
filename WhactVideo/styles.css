@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #325ab8, #00256e);
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.747);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: #ffffff;
+}
+
+.drone{
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8em;
+  color: #555;
+}
+
+.drone-icon {
+  width: 10px; /* İkonun boyutunu küçülttük */
+  height: 10px;
+  margin-bottom: 3px; /* İkon ile yazı arasındaki boşluğu azalttık */
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 250px;
+  padding: 20px;
+  margin: 5px 0;
+  border-radius: 30px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 1em;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.747);
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+  color: #e0e0e0;
+}
+
+button {
+  margin-top: 20px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.747);
+}
+
+button:hover {
+  background: #3a55a1;
+}

@@ -1,0 +1,113 @@
+body {
+   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to right, #84a9ff, #2459c2);
+}
+
+.video-container {
+    margin-top: 120px;
+    text-align: center;
+    background: linear-gradient(to right, #d6e1fe, #7c96ca);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+    margin: 30px;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(to right, #84a9ff, #507dd6);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.back-button:hover {
+    background: #7c96ca;
+}
+
+.back-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.risk-button, .no-risk-button {
+    padding: 20px 84px;
+    margin: 0 10px;
+    font-size: 1em;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.risk-button {
+    background: #e74c3c;
+}
+
+.risk-button:hover {
+    background: #c0392b;
+}
+
+.risk-button.active {
+    box-shadow: 10px 10px 15px rgb(255, 0, 0); /* Kırmızı box-shadow */
+  
+}
+.no-risk-button {
+    background: #2ecc71;
+}
+
+.no-risk-button:hover {
+    background: #27ae60;
+}
+
+.no-risk-button.active {
+    box-shadow: 10px 10px 15px rgb(26, 255, 0); /* Yeşil box-shadow */
+    
+}
+
+
+.kaydet-button {
+    width: 115px;
+    height: 122px;
+    float: left;
+    margin-left: 8px;
+    background-color: #3868c7;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 39px;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 1em;
+    resize: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

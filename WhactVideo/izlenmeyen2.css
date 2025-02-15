@@ -1,0 +1,152 @@
+body{
+    background: linear-gradient(to right, #325ab8, #00256e);
+    width: 1200px;
+    margin:10px auto ;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.videolar{
+    margin-top: 50px;
+}
+.videoBox{
+    width: 22%;
+    float: left;
+    padding:15px;
+    margin: 35px 0 0 75px;
+}
+.video{
+    border: 3px solid #000000;
+    padding:25px;
+    background: linear-gradient(to top, #ffffff, #b9c3d7);
+    border-radius: 20px;
+}
+
+.video:hover{
+    box-shadow: 10px 10px 15px rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.Logo {
+    height: 70px; /* Logonun boyutunu ayarlayın */
+    width: auto;
+}
+
+.site-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 15px; /* Logonun sağında boşluk bırak */
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -90px; /* Üst kısımla hizalamak için */
+    margin-right: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.current-page {
+    margin-right: 10px;
+    color: white; /* Yazı rengini sayfa temasına uygun hale getirin */
+}
+
+.header {
+    margin-top: 100px; /* Logo-container'dan sonra boşluk bırakmak için */
+    padding: 20px;
+    background: linear-gradient(to top, #ffffff, #b9c3d7); /* Menü arka planını belirginleştirmek için */
+    text-align: center;
+    border-radius: 40px;
+}
+
+/* Menü öğeleri için stil */
+.menu-item {
+    color: #304dac;
+    font-size: 18px;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    display: inline;
+   /* Hover sırasında arka planın tam görünmesi için */
+    border-radius: 20px; /* Kenarları yuvarlatmak için */
+}
+
+.menu-item1 {
+    color: #ffffff; /* Hover efekti için renk */
+    background: #304dac;
+    padding: 15px 25px;
+    font-size: 18px;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    display: inline;
+   /* Hover sırasında arka planın tam görünmesi için */
+    border-radius: 20px; /* Kenarları yuvarlatmak için */
+}
+
+.menu-item:hover {
+    color: #ffffff; /* Hover efekti için renk */
+    background: #304dac; /* Arka plan rengi */
+    padding: 15px 25px;
+}
+
+.git-button{
+    background: linear-gradient(to left, #1a4099, #3c62af);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    color:#fff;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+.git-button:hover{
+    background: #333231;
+}
+
+.resim{
+    box-shadow: 8px 8px 10px #000000;
+    border-radius: 10px;
+}
+
+.h3{
+    align-items: center;
+}
+
+.p{
+    align-items: center;}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(to right, #84a9ff, #507dd6);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+    
+.back-button:hover {
+    background: #7c96ca;
+}
+    
+.back-icon {
+    width: 20px;
+    height: 20px;
+}

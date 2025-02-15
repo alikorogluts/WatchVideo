@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to right, #92b3ff, #3c6bc8);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(to right, #84a9ff, #507dd6);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.back-button:hover {
+    background: #7c96ca;
+}
+
+.back-icon {
+    width: 20px;
+    height: 20px;
+}
